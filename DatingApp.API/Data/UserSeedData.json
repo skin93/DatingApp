@@ -119,7 +119,7 @@
         "Country": "Palau",
         "Photos": [
         {
-            "url": "https://randomuser.me/api/portraits/man/15.jpg",
+            "url": "https://randomuser.me/api/portraits/men/15.jpg",
             "isMain": true,
             "description": "Aute Lorem voluptate laborum ad mollit nostrud cupidatat velit do."
         }
@@ -140,7 +140,7 @@
         "Country": "Gibraltar",
         "Photos": [
         {
-            "url": "https://randomuser.me/api/portraits/man/87.jpg",
+            "url": "https://randomuser.me/api/portraits/men/87.jpg",
             "isMain": true,
             "description": "Labore ea nisi culpa dolore Lorem eiusmod exercitation pariatur ea qui ad."
         }
@@ -161,7 +161,7 @@
         "Country": "Estonia",
         "Photos": [
         {
-            "url": "https://randomuser.me/api/portraits/man/95.jpg",
+            "url": "https://randomuser.me/api/portraits/men/95.jpg",
             "isMain": true,
             "description": "Est elit adipisicing mollit aliqua cillum laborum."
         }
@@ -182,7 +182,7 @@
         "Country": "Netherlands Antilles",
         "Photos": [
         {
-            "url": "https://randomuser.me/api/portraits/man/32.jpg",
+            "url": "https://randomuser.me/api/portraits/men/32.jpg",
             "isMain": true,
             "description": "Reprehenderit non cupidatat adipisicing dolor."
         }
@@ -203,7 +203,7 @@
         "Country": "Turkmenistan",
         "Photos": [
         {
-            "url": "https://randomuser.me/api/portraits/man/64.jpg",
+            "url": "https://randomuser.me/api/portraits/men/64.jpg",
             "isMain": true,
             "description": "Voluptate adipisicing cupidatat non do cillum laboris laborum."
         }
