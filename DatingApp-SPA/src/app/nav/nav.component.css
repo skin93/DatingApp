@@ -2,3 +2,7 @@
     cursor: pointer;
 
 }
+
+a.dropdown-toggle.text-light {
+    text-transform: capitalize;
+}
