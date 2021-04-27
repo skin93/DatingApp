@@ -1,6 +1,6 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { NgForm } from '@angular/forms'
-import { ToastrService } from 'ngx-toastr'
+import { Component, HostListener, OnInit, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { ToastrService } from 'ngx-toastr';
 import { take } from 'rxjs/operators';
 import { Member } from 'src/app/_models/member';
 import { User } from 'src/app/_models/user';
@@ -16,6 +16,13 @@ export class MemberEditComponent implements OnInit {
   @ViewChild('editForm') editForm: NgForm;
   member: Member;
   user: User;
+  @HostListener('window:beforeunload', ['$event']) unloadNotification(
+    $event: any
+  ) {
+    if (this.editForm.dirty) {
+      $event.returnValue = true;
+    }
+  }
 
   constructor(
     private accountservice: AccountService,
@@ -37,9 +44,8 @@ export class MemberEditComponent implements OnInit {
     });
   }
 
-  updateMember(){
+  updateMember() {
     this.toastr.success('Profile updated successfully!');
     this.editForm.reset(this.member);
   }
-
 }
